@@ -16,7 +16,6 @@
 body{
   display: grid;
   grid-template: 1fr 4fr/ 1fr 4fr;
-  height: 100vh;
   row-gap: 4px;
 }
 a{
@@ -148,10 +147,55 @@ color: white;
   height: 22px;
 }
 
-
-
-
-
 .content{
   background-color: rgb(234, 236, 243);
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 40px 10px 40px 20px;
+
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.articles{
+  display: grid;
+  grid-template: 1fr 1fr 1fr/1fr 1fr;
+  gap:15px;
+
+}
+
+.article{
+  background-color: white;
+  height: 210px;
+  width: 360px;
+  border-radius: 10px;
+  border-left: 8px solid rgb(243, 187, 82);
+
+}
+.announcements-trendings{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.announcements{
+  background-color: white;
+  height: 330px;
+  width: 260px;
+  border-radius: 10px;
+}
+
+.trendings{
+  background-color: white;
+  height: 285px;
+  width: 260px;
+  
+  border-radius: 10px;
+}
+
+.category-titles{
+  font-size: 20px;
 }
