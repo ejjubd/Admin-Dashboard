@@ -173,8 +173,17 @@ color: white;
   width: 100%;
   border-radius: 10px;
   border-left: 8px solid rgb(243, 187, 82);
-
+  padding: 30px 15px 15px 15px;
 }
+
+.article-text h3{
+  font-size: 18px;
+}
+.article-text p {
+  font-size: 15px;
+  color: rgb(69, 69, 70);
+}
+
 .announcements-trendings{
   display: flex;
   flex-direction: column;
@@ -209,10 +218,26 @@ color: white;
   background-color: white;
   height: 285px;
   width: 260px;
-  
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15px;
+  gap: 10px;
 }
 
 .category-titles{
   font-size: 20px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profile p{
+  font-size: 14px;
+  color: rgb(89, 89, 90);
+}
+.profile-picture{
+  height:55px;
 }
